@@ -4,7 +4,7 @@
       <router-link to="/">トップ</router-link> ＞<router-link to="/personal">社員用トップ</router-link>＞<router-link to="/personal/four">状態検知と改善</router-link>＞<router-link to="/personal/fourtwo">家族と共有</router-link>
       <h1>家族と共有</h1>
       <div id="qrcodeview">
-      <img src="../../assets/QR_Code1572316899.png">
+      <img @click="openUrl('https://nift-mock-page-for-mobile.firebaseapp.com/');" src="../../assets/QR_Code1572316899.png" style="cursor:pointer" />
       </div>
       <div id="sendfamily">
       <div class="row justify-content-center">
@@ -24,3 +24,12 @@
   </div>
 </template>
 
+<script>
+  export default {
+  methods: {
+    openUrl(url) {
+        window.open(url, '_blank');
+      }
+    }
+  }
+</script>
