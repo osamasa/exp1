@@ -2,6 +2,7 @@
 /dist
 *.log
 *~
+*.cache
 
 #Electron-builder output
 /dist_electron
