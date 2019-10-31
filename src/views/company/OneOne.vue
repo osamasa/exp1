@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <div class="vuenav">
+    <div id="nav">
        <router-link to="/">トップ</router-link>＞<router-link to="/company">人事部用トップ</router-link>＞<router-link to="/company/one">働き方改革センシング</router-link>＞<font color="seagreen">{{ $route.params.title }}</font>
     </div>
     <h1>{{ $route.params.title }}</h1>

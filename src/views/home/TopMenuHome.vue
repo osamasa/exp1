@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-      <div class="vuenav">
+      <div id="nav">
        <router-link to="/">トップ</router-link> ＞<router-link to="/home">家族用トップ</router-link>
     </div>
     <h1>ご家族用ページメニュー</h1>

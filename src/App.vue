@@ -7,7 +7,12 @@
 </template>
 
 <style>
+@import "https://fonts.googleapis.com/earlyaccess/notosansjp.css" rel="stylesheet";
 @import "./assets/animate.css";
+body {
+  font-family: 'Noto Sans Japanese',sans-serif;
+  font-family: "HelveticaNeue", "Helvetica Neue", ".HiraKakuInterface-W1";
+}
 #app {
   margin: 0 auto;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

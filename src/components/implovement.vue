@@ -24,7 +24,7 @@
 	<h4>5</h4>
 あまりカラダを動かさないようですね、普段の生活の中に運動を取り入れることが重要です。週のうち２日は電車を使わないで歩いていく日を決めてはいかがでしょうか？
 	<p class="text-right">
-<input @click="openUrl('https://calendar.google.com/calendar/r?pli=1');" class="btn btn-primary" type="button" value="歩いて通勤日を入力">
+<input @click="openUrl('https://calendar.google.com/calendar/r?pli=1');" class="btn btn-primary" type="button" value="ウォーキングする日を入力">
 	</p>
       </div>
       <div class="col-md-10 alert alert-info mx-auto" role="alert">

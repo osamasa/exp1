@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <div class="vuenav">
+    <div id="nav">
        <router-link to="/">トップ</router-link> ＞<router-link to="/personal">社員用トップ</router-link>＞<router-link to="/personal/four">状態検知と改善</router-link>
     </div>
     <h1>{{getEmplyer}}さんの状態検知と改善</h1>

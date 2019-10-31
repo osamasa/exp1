@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <div class="vuenav">
+    <div id="nav">
       <router-link to="/">トップ</router-link> ＞<router-link to="/company">人事部用トップ</router-link>＞<router-link to="/company/two">カラダの状態確認</router-link>＞<router-link to="/company/twothree">全体の状態</router-link>
     </div>
     <h1>全体の状態</h1>

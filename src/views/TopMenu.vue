@@ -1,6 +1,6 @@
 <template>
   <div class="topmenu">
-    <div class="vuenav">
+    <div id="nav">
       <router-link to="/">トップ</router-link> 
     </div>
     <div class="row">
@@ -26,25 +26,11 @@
 </template>
 
 <style>
-.vuenav {
-  padding: 20px;
-}
 .vuemenu {
   padding: 30px;
 }
-
-.vuenav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-.vuenav a.router-link-exact-active {
-  color: #42b983;
-}
-
 .vuemenu a {
-  font-weight: bold;
-  font-size: x-large;
+  font-size: large;
   color: white;
 }
 
