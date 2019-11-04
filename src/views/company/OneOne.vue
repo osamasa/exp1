@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <div id="nav">
-       <router-link to="/">トップ</router-link>＞<router-link to="/company">人事部用トップ</router-link>＞<router-link to="/company/one">働き方改革センシング</router-link>＞<font color="seagreen">{{ $route.params.title }}</font>
+       <router-link to="/menu">トップ</router-link>＞<router-link to="/company">人事部用トップ</router-link>＞<router-link to="/company/one">働き方改革センシング</router-link>＞<font color="seagreen">{{ $route.params.title }}</font>
     </div>
     <h1>{{ $route.params.title }}</h1>
     <h3>SCORE: {{ $route.params.h }}/<font color="mediumseagreen">{{ $route.params.l }}</font></h3>

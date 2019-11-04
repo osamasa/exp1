@@ -5,4 +5,3 @@
     </transition>
   </div>
 </template>
-

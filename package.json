@@ -8,10 +8,10 @@
     "lint": "vue-cli-service lint",
     "electron:build": "vue-cli-service electron:build --win",
     "electron:serve": "vue-cli-service electron:serve",
-    "electron:all": "npm run electron:build && makensis ./src/wininstaller/install.nsi",      
+    "electron:all": "npm run electron:build && makensis ./src/wininstaller/install.nsi",
     "postinstall": "electron-builder install-app-deps",
-      "postuninstall": "electron-builder install-app-deps",
-      "firebase:deploy": "npm run build && firebase deploy"
+    "postuninstall": "electron-builder install-app-deps",
+    "firebase:deploy": "npm run build && firebase deploy"
   },
   "main": "background.js",
   "dependencies": {

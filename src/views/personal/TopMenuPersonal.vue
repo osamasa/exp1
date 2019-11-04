@@ -1,7 +1,7 @@
 <template>
   <div class="about">
       <div id="nav">
-       <router-link to="/">トップ</router-link> ＞<router-link to="/personal">社員用トップ</router-link>
+       <router-link to="/menu">トップ</router-link> ＞<router-link to="/personal">社員用トップ</router-link>
     </div>
     <h1>社員用ページメニュー</h1>
     <div class="vuemenu">

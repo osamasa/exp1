@@ -1,7 +1,7 @@
 <template>
   <div class="topmenucompany">
         <div id="nav">
-       <router-link to="/">トップ</router-link>＞<router-link to="/company">人事部用トップ</router-link>＞<router-link to="/company/one">働き方改革センシング</router-link>
+       <router-link to="/menu">トップ</router-link>＞<router-link to="/company">人事部用トップ</router-link>＞<router-link to="/company/one">働き方改革センシング</router-link>
        </div>
        <h1>働き方改革センシング</h1>
 <ReliabilityAndEnvironment></ReliabilityAndEnvironment>       

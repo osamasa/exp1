@@ -1,7 +1,7 @@
 <template>
   <div class="topmenu">
     <div id="nav">
-      <router-link to="/">トップ</router-link> 
+      <router-link to="/menu">トップ</router-link> 
     </div>
     <div class="row">
       <div class="col align-self-center">

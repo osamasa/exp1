@@ -10,11 +10,26 @@ import 'bootstrap/dist/css/bootstrap.css' // added
 import 'bootstrap-vue/dist/bootstrap-vue.css' // added
 
 const routes = [
-  {
-    path: '/',
-    name: 'topmenu',
-    component: TopMenu
-  },
+    {
+      path: '/menu',
+      name: 'topmenu',
+      component: TopMenu
+    },
+    {
+	path: '/homemenu',
+	naame: 'iphonemenu',
+	component: () => import('../views/home/HomeMenu'),
+	children: [
+       {
+           path: '/',
+           component: () => import('../views/home/Five')
+        },
+        {
+            path: 'fiveone',
+            component: () => import('../views/home/FiveOne')
+        }
+      ]
+    },
   {
     path: '/company',
 //    name: 'TopMenuCompany',

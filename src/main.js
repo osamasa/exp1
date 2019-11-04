@@ -9,8 +9,9 @@ new Vue({
   router,
   store,
   render: h => h(App),
-created() {
-    // Prevent blank screen in Electron builds
-    this.$router.push('/')
-  }
+    created() {
+	if(location.protocol ==="app:") {
+         this.$router.push('/menu')
+	}
+    }
 }).$mount('#app')

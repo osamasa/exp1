@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <div id="nav">
-      <router-link to="/">トップ</router-link> ＞<router-link to="/company">人事部用トップ</router-link>＞<router-link to="/company/two">カラダの状態確認</router-link>
+      <router-link to="/menu">トップ</router-link> ＞<router-link to="/company">人事部用トップ</router-link>＞<router-link to="/company/two">カラダの状態確認</router-link>
     </div>
     
     <div id="jinjisearch" class="row justify-content-center">

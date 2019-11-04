@@ -1,10 +1,10 @@
 <template>
   <div class="about">
     <div id="nav">
-      <router-link to="/">トップ</router-link> ＞<router-link to="/personal">社員用トップ</router-link>＞<router-link to="/personal/four">状態検知と改善</router-link>＞<router-link to="/personal/fourtwo">家族と共有</router-link>
+      <router-link to="/menu">トップ</router-link> ＞<router-link to="/personal">社員用トップ</router-link>＞<router-link to="/personal/four">状態検知と改善</router-link>＞<router-link to="/personal/fourtwo">家族と共有</router-link>
       <h1>家族と共有</h1>
       <div id="qrcodeview">
-      <img @click="openUrl('https://nift-mock-page-for-mobile.firebaseapp.com/');" src="../../assets/QR_Code1572316899.png" style="cursor:pointer" />
+      <img @click="openUrl('https://nift-mock-pages.firebaseapp.com/homemenu');" src="../../assets/f5fddafa33479aeab4b559cef7bb6ac7.png" style="cursor:pointer" />
       </div>
       <div id="sendfamily">
       <div class="row justify-content-center">

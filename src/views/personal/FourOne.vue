@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <div id="nav">
-      <router-link to="/">トップ</router-link> ＞<router-link to="/personal">社員用トップ</router-link>＞<router-link to="/personal/four">状態検知と改善</router-link>＞<router-link to="/personal/fourone">改善案</router-link>
+      <router-link to="/menu">トップ</router-link> ＞<router-link to="/personal">社員用トップ</router-link>＞<router-link to="/personal/four">状態検知と改善</router-link>＞<router-link to="/personal/fourone">改善案</router-link>
       <h1>{{getEmplyer}}さんへの改善案</h1>
       <Improvement></Improvement>
     </div>
